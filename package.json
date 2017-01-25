@@ -1,33 +1,44 @@
 {
-  "name": "11plateformes",
+  "name": "XXplatforms",
   "version": "1.0.0",
-  "description": "How connect to 11 plateformes.",
+  "description": "How connect to XX platforms.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/broidHQ/11plateformes.git"
+    "url": "git+https://github.com/broidHQ/XXplatforms.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Broid Team <opensource@broid.ai> (https://broid.ai)",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:broidHQ/broid-line.git"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/broidHQ/11plateformes/issues"
+    "url": "https://github.com/broidHQ/feedhack/issues"
   },
-  "homepage": "https://github.com/broidHQ/11plateformes#readme",
+  "homepage": "https://github.com/broidHQ/feedhack#readme",
+  "engines": {
+    "node": ">=6.0.0"
+  },
   "dependencies": {
-    "broid-callr": "^1.0.0",
-    "broid-discord": "^1.0.0",
-    "broid-kik": "^1.0.0",
-    "broid-line": "^1.0.0",
-    "broid-messenger": "^1.0.0",
-    "broid-skype": "^1.0.0",
-    "broid-slack": "^1.0.0",
-    "broid-telegram": "^1.0.0",
-    "broid-twilio": "^1.0.0",
-    "broid-twitter": "^1.0.0",
-    "broid-viber": "^1.0.0",
+    "broid-callr": "^1.1.0",
+    "broid-flowdock": "^1.0.0",
+    "broid-discord": "^1.1.0",
+    "broid-kik": "^1.1.0",
+    "broid-line": "^1.1.0",
+    "broid-messenger": "^1.1.0",
+    "broid-skype": "^1.1.0",
+    "broid-slack": "^1.1.0",
+    "broid-telegram": "^1.1.0",
+    "broid-twilio": "^1.1.0",
+    "broid-twitter": "^1.1.0",
+    "broid-viber": "^1.1.0",
     "ramda": "^0.23.0",
     "rxjs": "^5.0.3"
   }

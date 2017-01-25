@@ -3,6 +3,7 @@ const R = require("ramda");
 
 const broidCallr = require("broid-callr");
 const broidDiscord = require("broid-discord");
+const broidFlowdock = require("broid-flowdock");
 const broidLine = require("broid-line");
 const broidKik = require("broid-kik");
 const broidMessenger = require("broid-messenger");
@@ -16,6 +17,7 @@ const broidViber = require("broid-viber");
 const clients = {
   callr: new broidCallr({}),
   discord: new broidDiscord({}),
+  flowdock: new broidFlowdock({}),
   line: new broidLine({}),
   kik: new broidKik({}),
   messenger: new broidMessenger({}),
